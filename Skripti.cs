@@ -6,8 +6,8 @@ namespace ConsoleApp1
     {
         static void Main(string[] args)
         {
-            int n = 1;
-            while (n==1)
+            int x = 1;
+            while (x!=1, 10)
 
             Console.WriteLine("Osaamisesi asteikolla 1-10?");
             int x =int.Parse(Console.ReadLine());
@@ -20,7 +20,7 @@ namespace ConsoleApp1
 
             else if (x > 4 && x<7 || x==4)
             {
-                Console.WriteLine("Olet perse");
+                Console.WriteLine("Olet iha perus");
             }
 
             else
